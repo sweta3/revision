@@ -6,11 +6,11 @@ public class Company {
 		 
 	        //TODO:declare and create 3 objects(as a employee1,2,3) and set params
 		 	Employee employee1 = new Employee("John", "Trader", "BNP Paribas", 3000.0);
-		 	
+		 	double a = employee1.getSalary();
 		 	Employee employee2 = new Employee("Peter", "Analyst", "BNP Paribas", 3500.0);
-		 	
+		 	double b = employee2.getSalary();
 		 	Employee employee3 = new Employee("Anna", "Finance manager", "BNP Paribas", 4000.0);
-		 
+		 	double c = employee3.getSalary();
 	        //TODO:set department for your employees
 		 	employee1.setDepartment("Sales & Trading");
 		 	
@@ -31,18 +31,22 @@ public class Company {
 	        employee3.setSalary(8000.0);
 		 
 	        //TODO:calculate employees salary difference after 1 year
-	        double a = employee1.getSalary();
-	        double diffSal1 = a-3000.0;
+	        double a_a = employee1.getSalary();
+	        double diffSal1 = a_a-a;
 	        
-	        double b = employee2.getSalary();
-	        double diffSal2 = b-3500.0;
+	        double b_b = employee2.getSalary();
+	        double diffSal2 = b_b-b;
 	        
-	        double c = employee3.getSalary();
-	        double diffSal3 = c-4000.0;
+	        double c_c = employee3.getSalary();
+	        double diffSal3 = c_c-c;
 	        
 	        //out print your employees
 	        System.out.println(employee1);
 	        System.out.println(employee2);
-	        System.out.println(employee3);		
+	        System.out.println(employee3);
+	        
+	        System.out.println("Employee1 salary difference after 1 year: " +diffSal1);
+	        System.out.println("Employee2 salary difference after 1 year: " +diffSal2);
+	        System.out.println("Employee3 salary difference after 1 year: " +diffSal3);
 	 		}
 	}
