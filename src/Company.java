@@ -45,8 +45,8 @@ public class Company {
 	        System.out.println(employee2);
 	        System.out.println(employee3);
 	        
-	        System.out.println("Employee1 salary difference after 1 year: " +diffSal1);
-	        System.out.println("Employee2 salary difference after 1 year: " +diffSal2);
-	        System.out.println("Employee3 salary difference after 1 year: " +diffSal3);
+	        System.out.println("The employee with id="+ employee1.getId() + " salary difference after 1 year: " +diffSal1);
+	        System.out.println("The employee with id="+ employee2.getId() + " salary difference after 1 year: " +diffSal2);
+	        System.out.println("The employee with id="+ employee3.getId() + " salary difference after 1 year: " +diffSal3);
 	 		}
 	}
